@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+  
+.container {
+    display: flex;
+    height: 100vh;
+}
+  
+.column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative; 
+}
+
+
+.logo {
+    background-color: #4495FA;
+}
+  
+.logo img {
+    max-width: 500px;
+}
+  
+h2 {
+    margin-bottom: 20px;
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.recordar {
+    padding: 15px;
+    width: 100%;
+    font-size: 14px;
+}
+
+  
+.ingresos {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+  
+.boton {
+    padding: 10px;
+    background-color: #4495FA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 250px;
+    font-size: 15px;
+}
+  
+.boton:hover {
+    background-color: #3575D3;
+}
+
+.styleA {
+    margin-bottom: 10px;
+}
+
+footer {
+    font-family: sans-serif,Arial, Helvetica;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+.forgot-password {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.forgot-password .styleA {
+    color: #4495FA;
+    text-decoration: none;
+}
+  
+.forgot-password .styleA:hover {
+    text-decoration: underline;
+}
+
